@@ -8,10 +8,9 @@ class print_url(Module):
 
     def run(self, url):
 
-        self.getUrlTitle(url)
+        return self.getUrlTitle(url)
 
     def getUrlTitle(self, url):
 
         soup = BeautifulSoup.BeautifulSoup(urllib.urlopen(url))
-
-        print soup.title.string
+        return soup.title.string

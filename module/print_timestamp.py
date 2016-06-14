@@ -10,4 +10,4 @@ class print_timestamp(Module):
         _datetime = datetime.datetime.fromtimestamp(
             ts).strftime('%Y-%m-%d %H:%M:%S')
 
-        print _datetime
+        return _datetime
