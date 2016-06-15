@@ -12,7 +12,7 @@ Like saiyan, you could use this scouter to detect, analyze objects you see.
 
 ### Show Case
 
-* Screenshot of Desktop, our goal is to let Saiyan Scouter found analyze the url.
+* Screenshot of Desktop, our goal is to let Saiyan Scouter find and analyze the url.
 ![screenshot](pic/test.jpg)
 
 * Saiyan did found the url and show the url title.
