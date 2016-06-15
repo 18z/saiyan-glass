@@ -10,9 +10,9 @@ from subprocess import call
 
 def notify(process_result):
 
-    notify2.init('Slx7hS3ns3on')
+    notify2.init('Saiyan Scouter')
     notify = notify2.Notification(
-        'Slx7hS3ns3on', process_result, "dialog-info")
+        'Saiyan Scouter', process_result, "dialog-info")
     notify.show()
 
 
@@ -25,7 +25,8 @@ def process(clipboard_content):
 
     elif __parser__.timestamp(clipboard_content) is True:
 
-        timestamp_result = __modules__['print_timestamp'].run(clipboard_content)
+        timestamp_result = __modules__[
+            'print_timestamp'].run(clipboard_content)
         notify(str(timestamp_result))
 
     else:
