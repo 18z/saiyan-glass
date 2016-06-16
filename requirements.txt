@@ -1,5 +1,6 @@
 BeautifulSoup==3.2.1
 EasyProcess==0.2.2
 Pillow==3.2.0
+progress==1.2
 pyscreenshot==0.4.1
 pytesseract==0.1.6
