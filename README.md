@@ -16,7 +16,7 @@ Like saiyan, you could use this scouter to detect, analyze objects you see.
 ![screenshot](pic/test.jpg)
 
 * Saiyan did found the url and show the url title.
-![Saiyan_test](pic/saiyan-test.png)
+![Saiyan_test](pic/saiyan-show.png)
 
 ### Caution
 This project is still on early stage. The text extacted varies often.
